@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section class="container">
+  <div class="content-wrap">
+    <div class="content">
+      <div id="focusslide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            {% for banner in banners %}
+                {% if banner.is_active %}
+                     <li data-target="#focusslide" data-slide-to="0" class="active"></li>
+                {% else %}
+                     <li data-target="#focusslide" data-slide-to="1"></li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            {% for banner in banners %}
+                {% if banner.is_active %}
+                    <div class="item active">
+                        <a href="{{ banner.url }}" target="_blank" title="{{ banner.title }}" >
+                            <img src="/static/media/{{ banner.img }}"
+                                alt="{{ banner.title }}" class="img-responsive"></a>
+                    </div>
+                {% else %}
+                    <div class="item ">
+                        <a href="{{ banner.url }}" target="_blank" title="{{ banner.title }}" >
+                            <img src="/static/media/{{ banner.img }}"
+                                 alt="{{ banner.title }}" class="img-responsive"></a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+       <a class="left carousel-control" href="#focusslide" role="button" data-slide="prev" rel="nofollow"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">上一个</span> </a> <a class="right carousel-control" href="#focusslide" role="button" data-slide="next" rel="nofollow"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">下一个</span> </a>
+      </div>
+
+
+        {% for book in topArticle %}
+          <article class="excerpt-minic excerpt-minic-index">
+                <h2><span class="red">【推荐】</span><a target="_blank" href="/blog/{{ book.id }}/" title="{{ book.title }}" >{{ book.title }}</a>
+                </h2>
+                <p class="note">{{ book.content }}</p>
+            </article>
+        {% endfor %}
+      <div class="title">
+        <h3>最新发布</h3>
+          {% for book in categorys %}
+            <div class="more">
+                    <a href="/book/{{ book.id }}" title="{{ book.name}}" >{{ book.name }}</a>
+
+                </div>
+          {% endfor %}
+      </div>
+        {% for book in articles %}
+      <article class="excerpt excerpt-1" style="">
+      <a class="focus" href="/blog/{{ book.id }}/" title="{{ book.title }}" target="_blank" ><img class="thumb" data-original="/static/media/{{ book.cover }}" src="/static/media/{{ book.cover }}" alt="{{ book.title }}"  style="display: inline;"></a>
+            <header><a class="cat" href="/blog/{{ book.id }}/" title="{{ book.category }}" >{{ book.category }}<i></i></a>
+                <h2><a href="/blog/{{ book.id }}/" title="{{ book.title }}" target="_blank" >{{ book.title }}</a>
+                </h2>
+            </header>
+            <p class="meta">
+                <time class="time"><i class="glyphicon glyphicon-time"></i> {{ book.pub_time|date:'Y-m-d' }}</time>
+                <span class="views"><i class="glyphicon glyphicon-eye-open"></i> {{ book.read_num }}</span> <a class="comment" href="#" title="评论" target="_blank" ><i class="glyphicon glyphicon-comment"></i> 4</a>
+            </p>
+            <p class="note">{{ book.content }}</p>
+        </article>
+        {% endfor %}
+
+
+      <nav class="pagination" style="display: none;">
+        <ul>
+          <li class="prev-page"></li>
+          <li class="active"><span>1</span></li>
+          <li><a href="?page=2">2</a></li>
+          <li class="next-page"><a href="?page=2">下一页</a></li>
+          <li><span>共 2 页</span></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <aside class="sidebar">
+    <div class="fixed">
+      <div class="widget widget-tabs">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#notice" aria-controls="notice" role="tab" data-toggle="tab" >统计信息</a></li>
+          <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab" >联系站长</a></li>
+        </ul>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane contact active" id="notice">
+            <h2>日志总数:
+                  {{ count }}篇
+              </h2>
+              <h2>网站运行:
+              <span id="sitetime"> </span></h2>
+          </div>
+            <div role="tabpanel" class="tab-pane contact" id="contact">
+              <h2>QQ:
+                  <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1234&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" data-toggle="tooltip" data-placement="bottom" title=""  data-original-title="QQ:1234">2579566519</a>
+              </h2>
+              <h2>Email:
+              <a href="mailto:1234@qq.com" target="_blank" data-toggle="tooltip" rel="nofollow" data-placement="bottom" title=""  data-original-title="Email:1234@qq.com">2579566519@qq.com</a></h2>
+          </div>
+        </div>
+      </div>
+      <div class="widget widget_search">
+        <form class="navbar-form" action="/search/" method="get">
+          <div class="input-group">
+            <input type="text" name="kw" class="form-control" size="35" placeholder="请输入关键字" maxlength="15" autocomplete="off">
+            <span class="input-group-btn">
+            <button class="btn btn-default btn-search"  type="submit">搜索</button>
+            </span> </div>
+        </form>
+      </div>
+    </div>
+    <div class="widget widget_hot">
+          <h3>最新评论文章</h3>
+          <ul>
+                {% for book in Comments_all  %}
+                    <li><a title="{{ book.article.title }}" href="/blog/{{ book.article.id }}/" ><span class="thumbnail">
+                        <img class="thumb" data-original="/static/media/{{ book.article.cover }}" src="/static/media/{{ book.article.cover }}" alt="{{ book.article.title }}"  style="display: block;">
+                    </span><span class="text">{{ book.article.title }}</span>
+                        <span class="muted"><i class="glyphicon glyphicon-time"></i>
+                        2016-11-01
+                    </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i>{{ book.article.read_num }}</span></a></li>
+                {% endfor %}
+          </ul>
+     </div>
+     <div class="widget widget_sentence">
+        <a href="http://www.baidu.com//" target="_blank" rel="nofollow" title="专业网站建设" >
+        <img style="width: 100%" src="/static/images/timg%20(2).jpeg" alt="专业网站建设" ></a>
+     </div>
+     <div class="widget widget_sentence">
+        <a href="http://www.baidu.com/show/269.html" target="_blank" rel="nofollow" title="MZ-NetBlog主题" >
+        <img style="width: 100%" src="/static/images/timg.jpeg" alt="MZ-NetBlog主题" ></a>
+     </div>
+    {% for book in friendlink %}
+    <div class="widget widget_sentence">
+      <h3>友情链接</h3>
+      <div class="widge-sentence-link">
+        <a href="{{ book.url }}" title="{{ book.name }}" target="_blank" >{{ book.name }}</a>&nbsp;&nbsp;&nbsp;
+      </div>
+    </div>
+    {% endfor %}
+  </aside>
+  <script>
+      $(document).ready(function () {
+          starttime='2018-12-1 00:00:00'
+          nowtime=new Date().getTime()
+          diff = nowtime-new Date(starttime).getTime()
+          day=Math.floor(diff / (24*3600*1000))
+          $('#sitetime').html(day+"天")
+      })
+
+
+  </script>
+
+
+
+</section>
+{% endblock %}

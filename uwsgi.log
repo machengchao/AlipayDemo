@@ -1,0 +1,270 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Dec  6 14:42:11 2018] ***
+compiled with version: 5.4.0 20160609 on 06 December 2018 05:49:20
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: mcc-OMEN-by-HP-Laptop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mcc/桌面/1807project/m_zhuang
+writing pidfile to uwsgi.pid
+detected binary path: /home/mcc/.virtualenvs/mcc_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mcc/桌面/1807project/m_zhuang
+your processes number limit is 30795
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39535 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/mcc/.virtualenvs/mcc_django
+Python main interpreter initialized at 0x1e552b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ImportError: No module named 'MyBlog'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4078)
+spawned uWSGI worker 1 (pid: 4083, cores: 2)
+spawned uWSGI worker 2 (pid: 4084, cores: 2)
+spawned uWSGI worker 3 (pid: 4085, cores: 2)
+spawned uWSGI worker 4 (pid: 4086, cores: 2)
+spawned uWSGI http 1 (pid: 4087)
+Thu Dec  6 14:45:14 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Dec  6 14:45:14 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Dec  6 14:45:14 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Dec  6 14:45:14 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Dec  6 14:45:23 2018] ***
+compiled with version: 5.4.0 20160609 on 06 December 2018 05:49:20
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: mcc-OMEN-by-HP-Laptop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mcc/桌面/1807project/m_zhuang
+writing pidfile to uwsgi.pid
+detected binary path: /home/mcc/.virtualenvs/mcc_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mcc/桌面/1807project/m_zhuang
+your processes number limit is 30795
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44221 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/mcc/.virtualenvs/mcc_django
+Python main interpreter initialized at 0x242f2b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ImportError: No module named 'MyBlog'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4304)
+spawned uWSGI worker 1 (pid: 4309, cores: 2)
+spawned uWSGI worker 2 (pid: 4310, cores: 2)
+spawned uWSGI worker 3 (pid: 4311, cores: 2)
+spawned uWSGI worker 4 (pid: 4312, cores: 2)
+spawned uWSGI http 1 (pid: 4313)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Dec  6 14:49:18 2018] ***
+compiled with version: 5.4.0 20160609 on 06 December 2018 05:49:20
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: mcc-OMEN-by-HP-Laptop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mcc/桌面/1807project/m_zhuang
+writing pidfile to uwsgi.pid
+detected binary path: /home/mcc/.virtualenvs/mcc_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mcc/桌面/1807project/m_zhuang
+your processes number limit is 30795
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33155 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/mcc/.virtualenvs/mcc_django
+Python main interpreter initialized at 0x8422b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8422b0 pid: 4679 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4679)
+spawned uWSGI worker 1 (pid: 4685, cores: 2)
+spawned uWSGI worker 2 (pid: 4687, cores: 2)
+spawned uWSGI worker 3 (pid: 4688, cores: 2)
+spawned uWSGI worker 4 (pid: 4691, cores: 2)
+spawned uWSGI http 1 (pid: 4693)
+[pid: 4688|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 757 bytes} [Thu Dec  6 06:50:36 2018] GET /index/ => generated 21923 bytes in 65 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4688|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 765 bytes} [Thu Dec  6 06:50:36 2018] GET /static/css/bootstrap.min.css => generated 123 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 4/3] 127.0.0.1 () {38 vars in 740 bytes} [Thu Dec  6 06:50:36 2018] GET /static/images/timg.jpeg => generated 123 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 812 bytes} [Thu Dec  6 06:50:36 2018] GET /static/media/Myblog/u3784952612499285951fm26gp0_PENKeZG.jpg => generated 123 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4691|app: 0|req: 1/5] 127.0.0.1 () {38 vars in 772 bytes} [Thu Dec  6 06:50:36 2018] GET /static/media/Myblog/timg_1_fn4jW1v.jpeg => generated 123 bytes in 38 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4688|app: 0|req: 5/6] 127.0.0.1 () {40 vars in 867 bytes} [Thu Dec  6 06:50:36 2018] GET /static/media/Myblog/u3784952612499285951fm26gp0_PENKeZG.jpg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4687|app: 0|req: 1/7] 127.0.0.1 () {38 vars in 750 bytes} [Thu Dec  6 06:50:36 2018] GET /static/images/timg%20(2).jpeg => generated 123 bytes in 39 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4685|app: 0|req: 1/8] 127.0.0.1 () {40 vars in 795 bytes} [Thu Dec  6 06:50:36 2018] GET /static/images/timg.jpeg => generated 123 bytes in 34 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4691|app: 0|req: 2/9] 127.0.0.1 () {38 vars in 767 bytes} [Thu Dec  6 06:51:22 2018] GET /index/ => generated 21960 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 1)
+[pid: 4691|app: 0|req: 3/10] 127.0.0.1 () {38 vars in 709 bytes} [Thu Dec  6 06:51:22 2018] GET /static/css/bootstrap.min.css => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4685|app: 0|req: 2/11] 127.0.0.1 () {38 vars in 696 bytes} [Thu Dec  6 06:51:22 2018] GET /static/js/jquery-2.1.4.min.js => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4691|app: 0|req: 4/12] 127.0.0.1 () {38 vars in 752 bytes} [Thu Dec  6 06:51:22 2018] GET /static/media/Myblog/timg_1_fn4jW1v.jpeg => generated 123 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 6/13] 127.0.0.1 () {38 vars in 690 bytes} [Thu Dec  6 06:51:22 2018] GET /static/js/bootstrap.min.js => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 7/14] 127.0.0.1 () {38 vars in 790 bytes} [Thu Dec  6 06:51:22 2018] GET /static/media/Myblog/u3784952612499285951fm26gp0_PENKeZG.jpg => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 8/15] 127.0.0.1 () {38 vars in 803 bytes} [Thu Dec  6 06:51:22 2018] GET /static/media/article/58ee3d6d55fbb2fb3b7fdf90434a20a44723dcd8.jpg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 9/16] 127.0.0.1 () {38 vars in 795 bytes} [Thu Dec  6 06:51:22 2018] GET /static/media/article/u3826463533735860070fm173app25fJPEG.jpeg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 10/17] 127.0.0.1 () {38 vars in 767 bytes} [Thu Dec  6 06:51:22 2018] GET /static/media/article/webwxgetmsgimg_XnKvfWj.jpg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4685|app: 0|req: 3/18] 127.0.0.1 () {38 vars in 803 bytes} [Thu Dec  6 06:51:22 2018] GET /static/media/article/9f2f070828381f301ec2aee4a4014c086f06f0a0.jpg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4688|app: 0|req: 11/19] 127.0.0.1 () {38 vars in 729 bytes} [Thu Dec  6 06:51:22 2018] GET /static/images/timg%20(2).jpeg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 12/20] 127.0.0.1 () {38 vars in 719 bytes} [Thu Dec  6 06:51:22 2018] GET /static/images/timg.jpeg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 13/21] 127.0.0.1 () {38 vars in 689 bytes} [Thu Dec  6 06:51:22 2018] GET /static/js/bootstrap.min.js => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4685|app: 0|req: 4/22] 127.0.0.1 () {40 vars in 789 bytes} [Thu Dec  6 06:51:22 2018] GET /static/fonts/fontawesome-webfont.woff2?v=4.4.0 => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4688|app: 0|req: 14/23] 127.0.0.1 () {40 vars in 788 bytes} [Thu Dec  6 06:51:22 2018] GET /static/fonts/fontawesome-webfont.woff?v=4.4.0 => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4685|app: 0|req: 5/24] 127.0.0.1 () {40 vars in 786 bytes} [Thu Dec  6 06:51:22 2018] GET /static/fonts/fontawesome-webfont.ttf?v=4.4.0 => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+Thu Dec  6 07:13:40 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Dec  6 07:13:40 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Dec  6 15:13:52 2018] ***
+compiled with version: 5.4.0 20160609 on 06 December 2018 05:49:20
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: mcc-OMEN-by-HP-Laptop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mcc/桌面/1807project/m_zhuang
+writing pidfile to uwsgi.pid
+detected binary path: /home/mcc/.virtualenvs/mcc_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mcc/桌面/1807project/m_zhuang
+your processes number limit is 30795
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:32787 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/mcc/.virtualenvs/mcc_django
+Python main interpreter initialized at 0x1bd12b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1bd12b0 pid: 6278 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6278)
+spawned uWSGI worker 1 (pid: 6284, cores: 2)
+spawned uWSGI worker 2 (pid: 6286, cores: 2)
+spawned uWSGI worker 3 (pid: 6287, cores: 2)
+spawned uWSGI worker 4 (pid: 6289, cores: 2)
+spawned uWSGI http 1 (pid: 6292)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Dec  6 15:19:57 2018] ***
+compiled with version: 5.4.0 20160609 on 06 December 2018 05:49:20
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: mcc-OMEN-by-HP-Laptop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mcc/桌面/1807project/m_zhuang
+writing pidfile to uwsgi.pid
+detected binary path: /home/mcc/.virtualenvs/mcc_django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mcc/桌面/1807project/m_zhuang
+your processes number limit is 30795
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/mcc/.virtualenvs/mcc_django
+Python main interpreter initialized at 0x1c9b1e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1c9b1e0 pid: 6652 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6652)
+spawned uWSGI worker 1 (pid: 6658, cores: 2)
+spawned uWSGI worker 2 (pid: 6660, cores: 2)
+spawned uWSGI worker 3 (pid: 6661, cores: 2)
+spawned uWSGI worker 4 (pid: 6664, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 6661|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 875 bytes} [Thu Dec  6 07:26:19 2018] GET / => generated 21960 bytes in 90 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6664|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 711 bytes} [Thu Dec  6 07:26:19 2018] GET /static/js/nprogress.js => generated 123 bytes in 52 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6660|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 725 bytes} [Thu Dec  6 07:26:19 2018] GET /static/js/jquery-2.1.4.min.js => generated 123 bytes in 52 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6658|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 738 bytes} [Thu Dec  6 07:26:19 2018] GET /static/css/bootstrap.min.css => generated 123 bytes in 55 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6658|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 722 bytes} [Thu Dec  6 07:26:19 2018] GET /static/css/style.css => generated 123 bytes in 53 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6660|app: 0|req: 2/6] 127.0.0.1 () {42 vars in 730 bytes} [Thu Dec  6 07:26:19 2018] GET /static/css/nprogress.css => generated 123 bytes in 56 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6664|app: 0|req: 2/7] 127.0.0.1 () {42 vars in 744 bytes} [Thu Dec  6 07:26:19 2018] GET /static/css/font-awesome.min.css => generated 123 bytes in 55 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6658|app: 0|req: 4/9] 127.0.0.1 () {42 vars in 711 bytes} [Thu Dec  6 07:26:20 2018] GET /static/js/nprogress.js => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6658|app: 0|req: 4/9] 127.0.0.1 () {42 vars in 781 bytes} [Thu Dec  6 07:26:20 2018] GET /static/media/Myblog/timg_1_fn4jW1v.jpeg => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6661|app: 0|req: 3/10] 127.0.0.1 () {42 vars in 731 bytes} [Thu Dec  6 07:26:20 2018] GET /static/js/jquery.lazyload.min.js => generated 123 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6661|app: 0|req: 3/11] 127.0.0.1 () {42 vars in 719 bytes} [Thu Dec  6 07:26:20 2018] GET /static/js/bootstrap.min.js => generated 123 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6658|app: 0|req: 5/12] 127.0.0.1 () {42 vars in 707 bytes} [Thu Dec  6 07:26:20 2018] GET /static/js/scripts.js => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6661|app: 0|req: 4/13] 127.0.0.1 () {42 vars in 833 bytes} [Thu Dec  6 07:26:20 2018] GET /static/media/article/58ee3d6d55fbb2fb3b7fdf90434a20a44723dcd8.jpg => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6660|app: 0|req: 4/14] 127.0.0.1 () {42 vars in 821 bytes} [Thu Dec  6 07:26:20 2018] GET /static/media/Myblog/u3784952612499285951fm26gp0_PENKeZG.jpg => generated 123 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6661|app: 0|req: 5/15] 127.0.0.1 () {42 vars in 759 bytes} [Thu Dec  6 07:26:20 2018] GET /static/images/timg%20(2).jpeg => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6664|app: 0|req: 4/16] 127.0.0.1 () {42 vars in 797 bytes} [Thu Dec  6 07:26:20 2018] GET /static/media/article/webwxgetmsgimg_XnKvfWj.jpg => generated 123 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6664|app: 0|req: 4/17] 127.0.0.1 () {42 vars in 833 bytes} [Thu Dec  6 07:26:20 2018] GET /static/media/article/9f2f070828381f301ec2aee4a4014c086f06f0a0.jpg => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6660|app: 0|req: 4/18] 127.0.0.1 () {42 vars in 825 bytes} [Thu Dec  6 07:26:20 2018] GET /static/media/article/u3826463533735860070fm173app25fJPEG.jpeg => generated 123 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6661|app: 0|req: 6/19] 127.0.0.1 () {42 vars in 749 bytes} [Thu Dec  6 07:26:20 2018] GET /static/images/timg.jpeg => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6658|app: 0|req: 6/20] 127.0.0.1 () {42 vars in 719 bytes} [Thu Dec  6 07:26:20 2018] GET /static/js/bootstrap.min.js => generated 123 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 6658|app: 0|req: 7/21] 127.0.0.1 () {42 vars in 707 bytes} [Thu Dec  6 07:26:20 2018] GET /static/js/scripts.js => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6661|app: 0|req: 7/22] 127.0.0.1 () {46 vars in 806 bytes} [Thu Dec  6 07:26:20 2018] GET /static/images/favicon.ico => generated 123 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 6658|app: 0|req: 8/23] 127.0.0.1 () {46 vars in 878 bytes} [Thu Dec  6 07:41:42 2018] GET / => generated 21923 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6661|app: 0|req: 8/24] 127.0.0.1 () {44 vars in 816 bytes} [Thu Dec  6 11:54:32 2018] GET / => generated 21923 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
